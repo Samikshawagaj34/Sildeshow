@@ -1,0 +1,38 @@
+.container
+{
+    width: fit-content;
+    margin: 50px auto;
+    position: relative;
+}
+.silde
+{
+    height:300px ;
+    width:400px ;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.icon
+{
+    height: 80px;
+    position: absolute;
+    top: 40%;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.icon-pre
+{
+    left: 0;
+    
+}
+.icon-pre:hover
+{
+    transform: scale(0.8) translateX(-10px);
+}
+.icon-nex
+{
+    right: 0;
+    
+}
+.icon-nex:hover{
+    transform: scale(0.8) translateX(10px);
+}
